@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+#banner{
+	position: relative;
+	width: 100%;
+	max-width: 3840px;
+}
+#banner ul{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 810px;
+}
+#banner ul li{
+	position: absolute;
+	width: 100%;
+}
+#banner ul li img{
+	width: 100%;
+}
+/*슬라이드 구형 보류*/
+#banner #banner_text{
+	width: 1200px;
+	overflow: hidden;
+	position: absolute;
+	top: 40%;
+	left: calc(50% - 600px);
+	color: #ffffff;
+}
+#banner #banner_text ul {
+	width: 530px;
+	height: 184px;
+	margin: 0;
+}
+#banner #banner_text ul li {
+	position: absolute;
+}
+#banner #banner_text ul li h1{
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+#banner #banner_text ul li p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+#banner #banner_text ul li div{
+	width: 146px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #003cfa;
+	font-weight: bold;
+	margin: 0;
+}
+#banner #gd{
+    width: 100%;
+    height: 200px;
+	position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(18,18,18,1));
+}
+h3{
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+
+#festival{
+	position: relative;
+	top: -120px;
+}
+#festival div{
+
+}
+#festival div ul{
+
+}
+#festival div ul li{
+    width: calc(25% - 13.5px);
+    height: 342px;
+    margin: 0;
+    margin-right: 18px;
+    margin-bottom: 16px;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+#festival div ul li:nth-child(4), #festival div ul li:nth-child(8){ /*스크립트 짤때 자동적으로 지정할 수 있도록 변경*/
+	margin-right: 0px;
+}
+#festival div ul li .img_box{
+	width: 105%;
+	height: 190px;
+	overflow: hidden;
+}
+#festival div ul li img{
+	width: 100%;
+}
+#festival div ul li .stroke{
+	width: 100%;
+	height: 1px;
+	background-color: #e6e5e6;
+	margin : 10px 0px;
+}
+#festival div .text_box{
+	padding: 18px 27px;
+}
+#festival div .text_box .text_title{
+	width: 100%;
+	height: 50px;
+	font-size: 19px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;    
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+}
+#festival div .text_box .text_sub{
+	height: 45px;
+	font-size: 12px;
+	color: #666666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;    
+     -webkit-line-clamp: 3;
+     -webkit-box-orient: vertical;
+}
+#festival button{
+	margin-top: 6px;
+	margin-bottom: 64px;
+}
+
+#bbmas{
+
+}
+#bbmas .half_width{
+	width: calc(50% - 20px);
+	height: 500px;
+	float: left;
+	overflow: hidden;
+}
+#bbmas #bcontents {
+	margin-right: 20px;
+	background-color: #ffffff;
+}
+#bbmas #bcontents img{
+	width: 100%;
+}
+#bbmas #bcontents div div{
+	padding: 22px 25px;
+}
+#bbmas #scontents{
+
+}
+#bbmas #scontents .height3{
+	width: 100%;
+	height: calc(40% - 50px);
+	margin-bottom: 25px;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+#bbmas #scontents .height3:last-child{
+	margin-bottom: 0px;
+}
+#bbmas #scontents .s_img{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+}
+#bbmas #scontents .s_img img{
+	height: 100%;
+	display: block;
+}
+#bbmas #scontents .s_text{
+	width: calc(100% - 204px); /*가로, 세로는 스크립트로 조절*/
+	height: -webkit-fill-available;
+	margin-left: 177px;
+	display: table;
+}
+#bbmas #scontents .s_text .s_text_wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+#bbmas button{
+	margin-top: 22px;
+}

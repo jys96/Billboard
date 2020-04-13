@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+*{
+	font-family : Proxima Nova, sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-style: inherit;
+}
+body{	
+	background-color: #121212;
+	position: relative;
+}
+nav, section, footer{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+/* font */
+h3{
+	font-size : 22px;
+	font-weight: bold;
+}
+
+h4{
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.fs19{
+	font-size: 19px;
+}
+
+.fs12{
+	font-size: 12px;
+}
+
+.fsbold{
+	font-weight: bold;
+}
+
+.tcblue{
+	color: #003cfa;
+}
+
+.tcred{
+	color: #fb1316;
+}
+
+.tcwhite{
+	color: #ffffff;
+}
+
+
+/* bg */
+.bgblue{
+	background-color: #003cfa;
+}
+
+.bgred{
+	background-color: #fb1316;
+}
+
+
+
+/* nav */
+header{
+	width: 100%;
+	position: fixed;
+	text-transform: uppercase;
+	z-index: 100001;
+}
+.nav1{	
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+}
+.nav2{
+	border-bottom: solid 1px rgba(255,255,255,0.2);
+}
+#nav{
+	height: 60px;
+	color: #ffffff;
+	font-size: 14px;
+}
+#nav .logo_img img{
+	width: 123px;
+	height: auto;
+	margin-right: 50px;
+	float: left;
+	padding-top: 13px;
+}
+#nav ul{
+	float: left;
+}
+#nav ul li{
+	display: inline-block;
+	margin-right: 23px;
+	line-height: 60px;
+}
+#nav #right_ul{
+	float: right;
+}
+#nav #right_ul li{	
+	margin-right: 0;
+	margin-left: 23px;
+}
+#nav #right_ul #subscribe{
+	position: relative;
+}
+#nav #right_ul #subscribe button{
+	width: 100%;
+	border: 0;
+	background-color: #003cfa;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 3.5px 32px;
+	cursor: pointer;
+}
+#nav #right_ul #subscribe button:hover,
+#nav #right_ul #subscribe #subscribe_wrap button:hover {
+    background-color: #fff;
+    color: #003cfa;
+}
+#nav #right_ul #subscribe #subscribe_wrap{
+	width: 230px;
+	padding: 34px 30px 28px 30px;
+	background-color: #383636;
+	position: absolute;
+	top: 42px;
+	left: -30px;
+	display: none;
+}
+#nav #right_ul #subscribe #subscribe_wrap #subscribe_box{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#nav #right_ul #subscribe #subscribe_wrap #subscribe_box a{
+	display: block;
+	height: 299px;
+}
+#nav #right_ul #subscribe #subscribe_wrap #subscribe_box img{
+	width: 100%;
+}
+#nav #right_ul #subscribe #subscribe_wrap button{
+	width: 100%;
+	border: 0;
+	background-color: #003cfa;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 7px 0;
+	cursor: pointer;
+}
+
+/* padding */
+.contents_pd{
+	padding: 25px;
+}
+
+
+/*show more btn*/
+.sm_btn{
+	width: 170px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #121212;
+	color: #ffffff;
+	border: solid 1px #cccccc;
+	text-transform: uppercase;
+	margin-left: calc(50% - 84px);
+	cursor: pointer;
+}
+.sm_btn:hover{
+	border: solid 1px #003cfa;
+	background-color: #003cfa;
+}
+#slide_btn div{
+	width: 35px;
+	height: 35px;
+	background-color: #01b1e6;
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+#slide_btn div i{
+	font-size: 35px;
+}
+
+.slide_button{
+	z-index: 999;
+	position: relative;
+	height: 35px;
+}
+.slide_button div{
+	width: 35px;
+	height: 35px;
+	background-color: #003cfa;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+}
+.slide_button i{
+	font-size: 35px;
+}
+.slide_button .left_btn{
+	left: -20px;
+}
+.slide_button .right_btn{
+	right: -20px;
+}
+
+
+/* footer */
+footer{
+	color: #999999;
+	font-size: 12px;
+	/*text-transform: uppercase;*/
+	margin-top: 74px;
+	margin-bottom: 75px;
+}
+footer #footer{
+	width: 100%;
+}
+footer #footer #fli{
+	width: inherit;
+}
+footer #footer #fli img{
+	opacity: 0.6;
+	margin-bottom: 22px;
+}
+footer #footer div{
+	width: 250px;
+	display: inline-table;
+}
+footer #footer div:nth-child(6){
+	width: 100%;
+}
+footer #footer h4{
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+footer #footer ul li{
+	margin-bottom: 10px; /*psd에선 14px*/
+}
+footer #footer ul li:last-child{
+	margin-bottom: 0px;
+}
+footer #footer #fllc{
+	margin-top: 48px;
+}
+footer #footer #sns_icon ul li{
+	font-size: 27px;
+	display: inline-block;
+	margin-right: 15px;
+	cursor: pointer;
+}

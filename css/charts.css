@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+#chart_page{
+	width: 100%;
+	height: 315px;
+	padding-top: 86px;
+	margin-bottom: 60px;
+}
+#chart_page .half_width{	
+	width: calc(50% - 5px);
+	height: 315px;
+	display: inline-block;
+	float: left;
+}
+#chart_page .half_width a{
+	width: inherit;
+	height: inherit;
+}
+#chart_page #left #left_wrap div:nth-child(1),
+#chart_page #right div div:nth-child(1){
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: auto;
+}
+#chart_page #left #left_wrap div:nth-child(2),
+#chart_page #right div div:nth-child(2){
+	color: #003cfa;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+#chart_page #left{
+	margin-right: 10px;
+	background: url(../img/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	position: relative;
+	display: table;
+}
+#chart_page #left #left_wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+#chart_page #right div{
+	height: calc(50% - 5px);
+}
+#chart_page #right #r_t{
+	margin-bottom: 10px;
+	background: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	position: relative;
+}
+#chart_page #right #r_t #r_t_wrap{
+	position: absolute;
+    left: calc(50% - 175px);
+    top: calc(50% - 36.5px);
+}
+#chart_page #right #r_b{
+	background: url(../img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	position: relative;
+}
+#chart_page #right #r_b #r_b_wrap{
+	position: absolute;
+    left: calc(50% - 126px);
+    top: calc(50% - 36.5px);
+}
+#container{
+	margin-bottom: 65px;
+	overflow: auto;
+}
+#container ul li{
+	width: calc(25% - 7.5px);
+	height: 307px; /*스크립트로 width값과 같도록*/
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+#container ul li:nth-child(4),
+#container ul li:nth-child(8){ /*스크립트 구현*/
+	margin-right: 0px;
+}
+#container ul li:nth-child(9),
+#container ul li:nth-child(10){
+	margin-bottom: 0px; /*스크립트 구현(?)*/
+}
+#container ul li h4{
+	margin-bottom: 15px;
+	color: #fff;
+	font-weight: 700;
+}
+#container ul li a img{
+	width: 100%;
+}
+#container ul li:nth-child(3) a img,
+#container ul li:nth-child(5) a img,
+#container ul li:nth-child(6) a img{
+    width: auto;
+    height: 100%;
+}
+#container ul li:nth-child(3) a img,
+#container ul li:nth-child(6) a img{
+	margin-left: -30%;
+}
+#container ul li:nth-child(5) a img{
+	margin-left: -25%;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+#banner{
+	width: 100%;
+	max-width: 3840px;
+	position: relative;
+}
+#banner ul{
+	width: 100%;
+	height: 810px;
+	position: relative;
+	overflow: hidden;
+}
+#banner ul li{
+	width: 100%;
+	height: 810px;
+	position: absolute;
+}
+#banner ul li #img_box{
+	background-color: #000000;
+}
+#banner ul li img{
+	width: 100%;
+}
+#banner #text_box{
+	width: 477px;
+	height: 385px;
+	color: #fff;
+	background-color: #003cfa;
+	position: absolute;
+	top: 30%;
+	left: calc(50% - 600px);
+}
+#banner #text_box ul{
+	width: 477px;
+	height: 385px;
+	margin: 0;
+}
+#banner #text_box ul li{
+	width: 425px;
+	height: 263px;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-transform: uppercase;
+}
+#banner #text_box ul li h4{
+	color: #fb1316;
+}
+#banner #text_box ul li a{
+	display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+#banner #text_box ul li p{
+	color: #cccccc;
+	font-size: 22px;
+	margin-top: 40px;
+}
+#banner #text_box #slide_btn{
+	position: absolute;
+	right: 15px;
+	bottom: 33px;
+	height: 35px;
+}
+#banner #gd{	
+    width: 100%;
+    height: 200px;
+	position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(18,18,18,1));
+}
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#magazine, #cover, #latin, #arwards{
+	height: 302px;
+	margin-bottom: 64px;
+}
+.wrap{
+	width: 100%;
+	height: 260px;
+	position: relative;
+}
+
+#magazine ul, #cover ul, #latin ul, #arwards ul{
+	width: 100%;
+	height: 255px;
+}
+#magazine ul li, #cover ul li, #latin ul li, #arwards ul li{
+	width: calc(25% - 7.5px);
+	height: 260px;
+	margin-right: 10px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	background-color: #fff;
+}
+#magazine ul li:nth-child(4), 
+#cover ul li:nth-child(4), 
+#latin ul li:nth-child(4), 
+#arwards ul li:nth-child(4){ /*스크립트 구현*/
+	margin-right: 0;
+}
+#magazine ul li img, #cover ul li img, #latin ul li img, #arwards ul li img{
+	width: 100%;
+}
+.img_box{
+	width: 100%;
+	height: 173px !important;
+	overflow: hidden;
+}
+.text_box{
+    width: calc(100% - 50px);
+    height: auto;
+    margin: 17px 25px;
+}
+.text_box a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;	
+}
+.text_box p{
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+	margin-top: 5px
+}
+.slide_button{
+	width: 100%;
+    position: absolute;
+    top: calc(50% - 18px);
+}
